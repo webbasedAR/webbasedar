@@ -1,0 +1,292 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2456,
+      "max": [
+        110.03400421142578,
+        60.178520202636719,
+        79.879608154296875
+      ],
+      "min": [
+        -89.956398010253906,
+        -60.050834655761719,
+        -79.879562377929688
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 29472,
+      "componentType": 5126,
+      "count": 2456,
+      "max": [
+        0.99846863746643066,
+        0.99916017055511475,
+        0.99869644641876221
+      ],
+      "min": [
+        -0.99860775470733643,
+        -0.9994276762008667,
+        -0.99869644641876221
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 12648,
+      "max": [
+        2455
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 58944,
+      "componentType": 5126,
+      "count": 3443,
+      "max": [
+        91.671371459960938,
+        206.49542236328125,
+        113.21417999267578
+      ],
+      "min": [
+        -76.697868347167969,
+        56.363513946533203,
+        -113.19741058349609
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 100260,
+      "componentType": 5126,
+      "count": 3443,
+      "max": [
+        0.99995416402816772,
+        0.99997907876968384,
+        0.99982315301895142
+      ],
+      "min": [
+        -0.99999821186065674,
+        -0.99999719858169556,
+        -0.9998285174369812
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 50592,
+      "componentType": 5125,
+      "count": 16284,
+      "max": [
+        3442
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Gonzalit (https://sketchfab.com/Gonzalit)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/b18694beba6e440c9ac50b6b9f58b8d7",
+      "title": "Chair"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 115728,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 141576,
+      "byteOffset": 115728,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 257304,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "01_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.58823499999999995,
+          0.58823499999999995,
+          0.58823499999999995,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "02_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.99607800000000002,
+          0.0156863,
+          0.0156863,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object003_01 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object003_02 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "04fe7c01cb174188bb0e69d26f3bedb6.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "matrix": [
+        1.6292068449885733e-07,
+        -1.3234889800848443e-23,
+        0.99999999999998668,
+        0,
+        -1.6292068488171135e-07,
+        0.99999999999998668,
+        2.6543149516178714e-14,
+        0,
+        -0.99999999999997335,
+        -1.6292068488171352e-07,
+        1.6292068449885733e-07,
+        0,
+        -3.1844271575209859e-07,
+        58.536811828613281,
+        7.2851223945617676,
+        1
+      ],
+      "name": "Object003"
+    },
+    {
+      "mesh": 0,
+      "name": "Object003_01 - Default_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Object003_02 - Default_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Style.css -->
+<link rel="stylesheet" href="../css/index_style.css" />
+
+<!-- AFrame -->
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+<script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/cfe5f316/dist/aframe-extras.js"></script>
+
+<style>
+  a-scene {
+  height: 400px;
+  width: calc(100% - 100px);
+  margin: auto;
+  border: 0px solid green;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>My Website</h1>
+    <p>A <b>responsive</b> website created by me.</p>
+  </div>
+
+  <div class="navbar">
+    <a href="#" class="active">Główna</a>
+    <a href="#">Katalog</a>
+    <a href="#">O nas</a>
+    <a href="#" class="right">Kontakt</a>
+  </div>
+
+  <div class="center">
+    
+    <h2>Doświadczenie ARowe</h2>
+    <h5>Krzesło BG 400 UA, Feb 29, 2020</h5>
+      
+  </div>
+  <div class="center_sec">
+    <div id="canvas">
+      
+
+    </div>
+  </div>
+  <div id="myEmbeddedScene">
+    <a-scene embedded background="color: #D4D4D4">
+
+      <a-entity rotation="-15 195 0" scale="0.01 0.01 0.01" position="0 .5 -3" gltf-model="url(scene.gltf)"></a-entity>
+    </a-scene>
+  </div>
+  
+  <div class="center">
+    
+
+  </div>
+
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
+</body>
+</html>
